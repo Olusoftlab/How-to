@@ -1,3 +1,10 @@
+body{
+    
+   height:120vh;
+
+}
+
+
 .container-form{
 
       width:70%;
@@ -73,3 +80,36 @@ form{
      cursor:pointer;
 }
 
+
+
+.show{
+    position:relative;
+    width:5%;
+    background-color: rgb(167, 160, 160);
+}
+
+.show ul{
+    position:absolute;
+    top:22px;
+    width:200%;
+    margin:0px;
+    padding:0px;display:none;
+    background-color: rgb(206, 206, 206);
+
+}
+
+.show ul li{
+
+    padding:7px;
+
+}
+
+.show ul li:hover{
+    background-color: gray;
+}
+
+
+.show:hover ul{
+
+    display:block;
+}
